@@ -1,0 +1,43 @@
+{
+  "name": "lahoti-export-documentation-assistant",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tsc --noEmit",
+    "test": "tsx tests/lol0138.test.ts && tsx tests/variant.test.ts && tsx tests/lol0087.test.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^2.4.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "docx": "^9.7.1",
+    "jspdf": "^4.2.1",
+    "jszip": "^3.10.1",
+    "lucide-react": "^0.546.0",
+    "mongodb": "^6.21.0",
+    "motion": "^12.23.24",
+    "next": "^15.5.28",
+    "pdfjs-dist": "^6.2.108",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
+    "server-only": "^0.0.1",
+    "tailwind-merge": "^3.7.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "dotenv": "^18.0.9",
+    "tailwindcss": "^4.1.14",
+    "tsx": "^4.21.0",
+    "typescript": "~5.8.2"
+  }
+}
